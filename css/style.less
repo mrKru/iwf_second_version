@@ -1,0 +1,367 @@
+
+@font-face {
+	font-family: Xiomara;
+	src: url(../fonts/xiomara.ttf)
+}
+@font-face {
+	font-family: CochinArchaic;
+	src: url(../fonts/CochinArchaic.ttf)
+}
+@font-face {
+	font-family: WindiRain;
+	src: url(../fonts/WindiRain.otf)
+}
+h1 {
+	font-family: WindiRain;
+}
+a {
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+.container-fluid {
+	.title {
+		height: 20%;
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+		h1 {
+			font-family: WindiRain;
+			font-size: 80px;
+			line-height: 100px;
+		}
+		a {
+			.fa {
+				color: #fff;
+				font-size: 50px;
+				padding: 5%;
+			}
+		}
+	}
+}
+.header-block {
+	min-height: 100vh;
+	background: url("../images/background-exhibition.jpg");
+	background-size: cover;
+	color: #fff;
+	padding: 0;
+}
+hr {
+	height: 2px;
+	border: none;
+	background-color: gold;
+}
+.events {
+	margin-top: 60px;
+	h2 {
+		font-family: WindiRain;
+		font-size: 40px;
+		color: #666;
+	}
+	.row {
+		.description {
+			padding-top: 40px;
+			padding-bottom: 40px;
+			&:hover ul {
+				padding: 10px;
+			}
+			ul {
+				-webkit-transition: all 0.5s ease-out;
+				padding: 5px;
+				width: 100%;
+				li {
+					list-style: none;
+	    			margin-bottom: 10px;
+	    			font-size: 20px;
+	    			.fa {
+	    				margin-right: 20px;
+	   					font-size: 20px;
+	    			}
+				}
+			}
+		}
+
+	}
+	.left {
+		padding: 40px 0px;
+		margin-bottom: 30px;
+		.image {
+			padding-left: 40px;
+			margin-bottom: 50px;
+		}
+	}
+	.right {
+		.image {
+			padding-right: 50px;
+			margin-bottom: 50px;
+		}
+	}
+}
+/*--------Новый код--------*/
+.about {
+	min-height: 100vh;
+	background: url("../images/background-about.jpg");
+	background-size: cover;
+	color: #fff;
+	padding: 0;
+}
+.fair{
+	min-height: 100vh;
+	background: url("../images/background-fair.jpg");
+	background-size: cover;
+	color: #fff;
+	padding: 0;
+}
+.exhibition {
+	min-height: 100vh;
+	background: url("../images/background-exhibition.jpg");
+	background-size: cover;
+	color: #fff;
+	padding: 0
+}
+.festival {
+	min-height: 100vh;
+	background: url("../images/background-festival.jpg");
+	background-size: cover;
+	color: #fff;
+	padding: 0
+}
+.about-main {
+	background: url("../images/background-pattern.png");
+
+	.container {
+		padding: 30px 0px;
+		
+		h1 {
+			text-align: center;
+		    font-family: CochinArchaic;
+		    color: rgb(128,0,0);
+		    font-weight: bold;
+		    margin-bottom: 40px;
+		}
+		p {
+			font-size: 1.5em;
+		    line-height: 35px;
+		    text-align: center;
+		}
+	}
+}
+.header-block, .about, .fair, .exhibition,
+.festival {
+	.logotype {
+		padding: 15px;
+		background-color: rgba(255, 255, 255, 0.9);
+		box-shadow: 0 0.4em 5px rgba(122,122,122,0.5);
+    	margin: 0;
+    	text-align: center;
+
+		img {
+			width: 20%;
+		}
+	}
+	.about {
+		min-height: 100vh;
+		background: url("../images/background-2.jpg");
+		background-size: cover;
+		color: #fff;
+		padding: 0;
+	}
+	.container {
+		.row {
+			.schedule {
+				font-family: serif;
+			    margin: 19px 0px;
+
+			    h1 {
+			    	color: rgb(128,0,0);
+				    font-weight: bold;
+				    font-size: 4em;
+				    margin-bottom: 30px;
+				    text-shadow: 3px -1px 5px #fff;
+			    }
+			    .row {
+			    	padding: 5px 0px;
+			    	margin-top: 15%;
+
+			    	.description {
+						background: rgba(255, 255, 255, 0.4);
+					    border-radius: 20px;
+					    text-align: center;
+					    padding: 0px 20px;
+
+					    &:hover {
+					    	background: rgba(255, 255, 255, 0.8);
+					    }
+					    &:hover h3 {
+					    	font-size: 2.5em;
+					    }
+						
+						h3 {
+					        font-size: 2em;
+						    font-family: House;
+						    text-align: center;
+						    color: rgb(128,0,0);
+						    padding-top: 15px;
+						    maargin-bottom: 5px;
+						}
+					    ul {
+					    	padding: 0;
+					    	margin: 0;
+
+					    	li {
+					    		font-size: 22px;
+					    		list-style: none;
+					    		padding: 10px;
+					    		color: #000;
+
+					    		i {
+					    			font-size: 20px;
+					    			padding-right: 15px;
+					    		}
+					    	}
+					    	li:nth-last-child(n+2) {
+					    		border-bottom: 1px solid rgb(128, 128, 0);
+					    	}
+					    }
+					}
+			    }
+			}
+		}
+	}
+	.navigation {
+		background-color: rgba(255, 255, 255, 0.7);
+		box-shadow: 0 0.5em 10px rgba(122,122,122,0.5);
+		padding: 0;
+		margin-top: 10px;
+		width: 100%;
+	    position: absolute;
+	    bottom: 0;
+
+		.navbar {
+			background: none;
+			border: none;
+			padding: 0;
+			margin: 0;
+			border-radius: 0px;
+
+			.container {
+
+				.collapse {
+					width: 72%;
+		    		margin: auto;
+					
+					li {
+						margin: 0px 15px;	
+						
+						a {
+							font-size: 	2em;
+							padding: 20px;
+						}
+					}
+
+				}
+			}			
+		}
+		.navbar-default {
+
+			.container {
+
+				.collapse {
+
+					a:hover,
+					a:focus{
+						background: rgb(128,0,0);
+				    	color: rgb(128,128,0);
+					} 
+					.navbar-nav {
+						margin-left: 15%;
+					}
+				}
+			}
+		}	
+	}
+}
+.main {
+	padding: 0;
+	
+	.wrapper {
+		padding: 0;
+		background-color: rgba(255, 255,255, 0.5);
+	
+		.container {
+			.picture {
+				img {
+					width: 100%;
+					border-radius: 30px;
+					margin-top: 120px;
+				}
+			}
+			.fest-discription {
+				margin-top: 40px;
+				p {
+				    font-size: 1.9em;
+				    padding: 35px 47px;
+				    font-style: italic;
+	 			    background: rgba(255, 255, 255, 0.7);
+				    border-radius: 30px;
+				}
+				h1 {
+					font-family: CochinArchaic;
+				    color: rgb(128,0,0);
+				    font-weight: bold;
+				    margin-bottom: 20px;
+				}
+			}
+			.information {
+				
+				padding: 20px 0px;		
+				.partners, .contacts {
+					.glyphicon {
+						font-size: 20px;
+						padding-right: 15px;
+					}
+					.item {
+						padding-left: 0;
+					}
+					
+					i {
+						font-family: serif;
+						font-size: 1.8em;
+						color: #000;
+					}
+					h2 {
+						padding-bottom: 30px;
+						font-size: 2em;
+						font-family: serif;
+						font-weight: bold;
+						color: rgb(128,0,0)
+					}
+					img {
+						width: 19%;
+						padding: 8px 8px 8px 0px;
+						border: none;
+					}
+				}
+			}
+		}
+	}
+}
+.footer-body {
+	background: rgba(128,0,0, 0.9);
+	color: #fff;
+	font-size: 2.7em;
+	.container {
+		.footer-line {
+			line-height: 60px;
+			span {
+				font-family: serif;
+				font-size: 0.5em;
+			}
+		}
+	}
+}

@@ -1,0 +1,404 @@
+@font-face {
+  font-family: Xiomara;
+  src: url(../fonts/xiomara.ttf);
+}
+@font-face {
+  font-family: CochinArchaic;
+  src: url(../fonts/CochinArchaic.ttf);
+}
+@font-face {
+  font-family: WindiRain;
+  src: url(../fonts/WindiRain.otf);
+}
+h1 {
+  font-family: WindiRain;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.container-fluid .title {
+  height: 20%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.container-fluid .title h1 {
+  font-family: WindiRain;
+  font-size: 80px;
+  line-height: 100px;
+}
+.container-fluid .title a .fa {
+  color: #fff;
+  font-size: 50px;
+  padding: 5%;
+}
+.header-block {
+  min-height: 100vh;
+  background: url("../images/background-exhibition.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+}
+hr {
+  height: 2px;
+  border: none;
+  background-color: gold;
+}
+.events {
+  margin-top: 60px;
+}
+.events h2 {
+  font-family: WindiRain;
+  font-size: 40px;
+  color: #666;
+}
+.events .row .description {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.events .row .description:hover ul {
+  padding: 10px;
+}
+.events .row .description ul {
+  -webkit-transition: all 0.5s ease-out;
+  padding: 5px;
+  width: 100%;
+}
+.events .row .description ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.events .row .description ul li .fa {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.events .left {
+  padding: 40px 0px;
+  margin-bottom: 30px;
+}
+.events .left .image {
+  padding-left: 40px;
+  margin-bottom: 50px;
+}
+.events .right .image {
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+/*--------Новый код--------*/
+.about {
+  min-height: 100vh;
+  background: url("../images/background-about.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+}
+.fair {
+  min-height: 100vh;
+  background: url("../images/background-fair.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+}
+.exhibition {
+  min-height: 100vh;
+  background: url("../images/background-exhibition.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+}
+.festival {
+  min-height: 100vh;
+  background: url("../images/background-festival.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+}
+.about-main {
+  background: url("../images/background-pattern.png");
+}
+.about-main .container {
+  padding: 30px 0px;
+}
+.about-main .container h1 {
+  text-align: center;
+  font-family: CochinArchaic;
+  color: #800000;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.about-main .container p {
+  font-size: 1.5em;
+  line-height: 35px;
+  text-align: center;
+}
+.header-block .logotype,
+.about .logotype,
+.fair .logotype,
+.exhibition .logotype,
+.festival .logotype {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0.4em 5px rgba(122, 122, 122, 0.5);
+  margin: 0;
+  text-align: center;
+}
+.header-block .logotype img,
+.about .logotype img,
+.fair .logotype img,
+.exhibition .logotype img,
+.festival .logotype img {
+  width: 20%;
+}
+.header-block .about,
+.about .about,
+.fair .about,
+.exhibition .about,
+.festival .about {
+  min-height: 100vh;
+  background: url("../images/background-2.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+}
+.header-block .container .row .schedule,
+.about .container .row .schedule,
+.fair .container .row .schedule,
+.exhibition .container .row .schedule,
+.festival .container .row .schedule {
+  font-family: serif;
+  margin: 19px 0px;
+}
+.header-block .container .row .schedule h1,
+.about .container .row .schedule h1,
+.fair .container .row .schedule h1,
+.exhibition .container .row .schedule h1,
+.festival .container .row .schedule h1 {
+  color: #800000;
+  font-weight: bold;
+  font-size: 4em;
+  margin-bottom: 30px;
+  text-shadow: 3px -1px 5px #ffffff;
+}
+.header-block .container .row .schedule .row,
+.about .container .row .schedule .row,
+.fair .container .row .schedule .row,
+.exhibition .container .row .schedule .row,
+.festival .container .row .schedule .row {
+  padding: 5px 0px;
+  margin-top: 15%;
+}
+.header-block .container .row .schedule .row .description,
+.about .container .row .schedule .row .description,
+.fair .container .row .schedule .row .description,
+.exhibition .container .row .schedule .row .description,
+.festival .container .row .schedule .row .description {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  text-align: center;
+  padding: 0px 20px;
+}
+.header-block .container .row .schedule .row .description:hover,
+.about .container .row .schedule .row .description:hover,
+.fair .container .row .schedule .row .description:hover,
+.exhibition .container .row .schedule .row .description:hover,
+.festival .container .row .schedule .row .description:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+.header-block .container .row .schedule .row .description:hover h3,
+.about .container .row .schedule .row .description:hover h3,
+.fair .container .row .schedule .row .description:hover h3,
+.exhibition .container .row .schedule .row .description:hover h3,
+.festival .container .row .schedule .row .description:hover h3 {
+  font-size: 2.5em;
+}
+.header-block .container .row .schedule .row .description h3,
+.about .container .row .schedule .row .description h3,
+.fair .container .row .schedule .row .description h3,
+.exhibition .container .row .schedule .row .description h3,
+.festival .container .row .schedule .row .description h3 {
+  font-size: 2em;
+  font-family: House;
+  text-align: center;
+  color: #800000;
+  padding-top: 15px;
+  maargin-bottom: 5px;
+}
+.header-block .container .row .schedule .row .description ul,
+.about .container .row .schedule .row .description ul,
+.fair .container .row .schedule .row .description ul,
+.exhibition .container .row .schedule .row .description ul,
+.festival .container .row .schedule .row .description ul {
+  padding: 0;
+  margin: 0;
+}
+.header-block .container .row .schedule .row .description ul li,
+.about .container .row .schedule .row .description ul li,
+.fair .container .row .schedule .row .description ul li,
+.exhibition .container .row .schedule .row .description ul li,
+.festival .container .row .schedule .row .description ul li {
+  font-size: 22px;
+  list-style: none;
+  padding: 10px;
+  color: #000;
+}
+.header-block .container .row .schedule .row .description ul li i,
+.about .container .row .schedule .row .description ul li i,
+.fair .container .row .schedule .row .description ul li i,
+.exhibition .container .row .schedule .row .description ul li i,
+.festival .container .row .schedule .row .description ul li i {
+  font-size: 20px;
+  padding-right: 15px;
+}
+.header-block .container .row .schedule .row .description ul li:nth-last-child(n+2),
+.about .container .row .schedule .row .description ul li:nth-last-child(n+2),
+.fair .container .row .schedule .row .description ul li:nth-last-child(n+2),
+.exhibition .container .row .schedule .row .description ul li:nth-last-child(n+2),
+.festival .container .row .schedule .row .description ul li:nth-last-child(n+2) {
+  border-bottom: 1px solid #808000;
+}
+.header-block .navigation,
+.about .navigation,
+.fair .navigation,
+.exhibition .navigation,
+.festival .navigation {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0.5em 10px rgba(122, 122, 122, 0.5);
+  padding: 0;
+  margin-top: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.header-block .navigation .navbar,
+.about .navigation .navbar,
+.fair .navigation .navbar,
+.exhibition .navigation .navbar,
+.festival .navigation .navbar {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 0px;
+}
+.header-block .navigation .navbar .container .collapse,
+.about .navigation .navbar .container .collapse,
+.fair .navigation .navbar .container .collapse,
+.exhibition .navigation .navbar .container .collapse,
+.festival .navigation .navbar .container .collapse {
+  width: 72%;
+  margin: auto;
+}
+.header-block .navigation .navbar .container .collapse li,
+.about .navigation .navbar .container .collapse li,
+.fair .navigation .navbar .container .collapse li,
+.exhibition .navigation .navbar .container .collapse li,
+.festival .navigation .navbar .container .collapse li {
+  margin: 0px 15px;
+}
+.header-block .navigation .navbar .container .collapse li a,
+.about .navigation .navbar .container .collapse li a,
+.fair .navigation .navbar .container .collapse li a,
+.exhibition .navigation .navbar .container .collapse li a,
+.festival .navigation .navbar .container .collapse li a {
+  font-size: 2em;
+  padding: 20px;
+}
+.header-block .navigation .navbar-default .container .collapse a:hover,
+.about .navigation .navbar-default .container .collapse a:hover,
+.fair .navigation .navbar-default .container .collapse a:hover,
+.exhibition .navigation .navbar-default .container .collapse a:hover,
+.festival .navigation .navbar-default .container .collapse a:hover,
+.header-block .navigation .navbar-default .container .collapse a:focus,
+.about .navigation .navbar-default .container .collapse a:focus,
+.fair .navigation .navbar-default .container .collapse a:focus,
+.exhibition .navigation .navbar-default .container .collapse a:focus,
+.festival .navigation .navbar-default .container .collapse a:focus {
+  background: #800000;
+  color: #808000;
+}
+.header-block .navigation .navbar-default .container .collapse .navbar-nav,
+.about .navigation .navbar-default .container .collapse .navbar-nav,
+.fair .navigation .navbar-default .container .collapse .navbar-nav,
+.exhibition .navigation .navbar-default .container .collapse .navbar-nav,
+.festival .navigation .navbar-default .container .collapse .navbar-nav {
+  margin-left: 15%;
+}
+.main {
+  padding: 0;
+}
+.main .wrapper {
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.main .wrapper .container .picture img {
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 120px;
+}
+.main .wrapper .container .fest-discription {
+  margin-top: 40px;
+}
+.main .wrapper .container .fest-discription p {
+  font-size: 1.9em;
+  padding: 35px 47px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+}
+.main .wrapper .container .fest-discription h1 {
+  font-family: CochinArchaic;
+  color: #800000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.main .wrapper .container .information {
+  padding: 20px 0px;
+}
+.main .wrapper .container .information .partners .glyphicon,
+.main .wrapper .container .information .contacts .glyphicon {
+  font-size: 20px;
+  padding-right: 15px;
+}
+.main .wrapper .container .information .partners .item,
+.main .wrapper .container .information .contacts .item {
+  padding-left: 0;
+}
+.main .wrapper .container .information .partners i,
+.main .wrapper .container .information .contacts i {
+  font-family: serif;
+  font-size: 1.8em;
+  color: #000;
+}
+.main .wrapper .container .information .partners h2,
+.main .wrapper .container .information .contacts h2 {
+  padding-bottom: 30px;
+  font-size: 2em;
+  font-family: serif;
+  font-weight: bold;
+  color: #800000;
+}
+.main .wrapper .container .information .partners img,
+.main .wrapper .container .information .contacts img {
+  width: 19%;
+  padding: 8px 8px 8px 0px;
+  border: none;
+}
+.footer-body {
+  background: rgba(128, 0, 0, 0.9);
+  color: #fff;
+  font-size: 2.7em;
+}
+.footer-body .container .footer-line {
+  line-height: 60px;
+}
+.footer-body .container .footer-line span {
+  font-family: serif;
+  font-size: 0.5em;
+}
